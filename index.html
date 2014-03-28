@@ -1,95 +1,216 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="description">
+  <meta content="" name="author">
 
-    <title>Starter Template for Bootstrap</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Add custom CSS here -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
+  <title>Paolo Bernasconi | Portfolio</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
+<div id="wrapper">
+  <!-- Sidebar -->
 
-    <div id="wrapper">
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand"><a href="#">Paolo Bernasconi</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#connect">Connect</a></li>
+    </ul>
+  </div>
 
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#">Start Bootstrap</a>
-                </li>
-                <li><a href="#">Dashboard</a>
-                </li>
-                <li><a href="#">Shortcuts</a>
-                </li>
-                <li><a href="#">Overview</a>
-                </li>
-                <li><a href="#">Events</a>
-                </li>
-                <li><a href="#">About</a>
-                </li>
-                <li><a href="#">Services</a>
-                </li>
-                <li><a href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
 
-        <!-- Page content -->
-        <div id="page-content-wrapper">
-            <div class="content-header">
-                <h1>
-                    <a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
-                    Simple Sidebar
-                </h1>
-            </div>
-            <!-- Keep all page content within the page-content inset div! -->
-            <div class="page-content inset">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="lead">This simple sidebar template has a hint of JavaScript to make the template responsive. It also includes Font Awesome icon fonts.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="well">The template still uses the default Bootstrap rows and columns.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="well">But the full-width layout means that you wont be using containers.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <p class="well">Three Column Example</p>
-                    </div>
-                    <div class="col-md-4">
-                        <p class="well">Three Column Example</p>
-                    </div>
-                    <div class="col-md-4">
-                        <p class="well">You get the idea! Do whatever you want in the page content area!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+  <div id="page-content-wrapper">
+    <div class="content-header">
+      <h1><a class="btn btn-default" href="#" id="menu-toggle"></a> Hi! I'm Paolo</h1>
     </div>
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <div class="page-content inset">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">My Work</h1>
+        </div>
+      </div>
 
-    <!-- Custom JavaScript for the Menu Toggle -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("active");
-    });
-    </script>
+
+      <div class="row">
+        <div class="col-lg-7 col-md-7">
+          <a href="#"><img alt="" class="img-responsive" src="http://placehold.it/700x300"></a>
+        </div>
+        <div class="col-lg-5 col-md-5">
+          <h3>Project One</h3>
+          <h4>Subheading</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p><a class="btn btn-primary" href="#">View Project </a>
+        </div>
+      </div>
+      <hr>
+
+
+      <div class="row">
+        <div class="col-lg-7 col-md-7">
+          <a href="#"><img alt="" class="img-responsive" src="http://placehold.it/700x300"></a>
+        </div>
+        <div class="col-lg-5 col-md-5">
+          <h3>Project Two</h3>
+          <h4>Subheading</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p><a class="btn btn-primary" href="#">View Project </a>
+        </div>
+      </div>
+      <hr>
+
+
+      <div class="row">
+        <div class="col-lg-7 col-md-7">
+          <a href="#"><img alt="" class="img-responsive" src="http://placehold.it/700x300"></a>
+        </div>
+
+        <div class="col-lg-5 col-md-5">
+          <h3>Project Three</h3>
+          <h4>Subheading</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p><a class="btn btn-primary" href="#">View Project </a>
+        </div>
+      </div>
+      <hr>
+
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Skills</h1>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-3">
+          <h3>Python</h3>
+          <canvas id="python" class="im-responsive"></canvas>
+          <p>sdf</p>
+        </div>
+        <div class="col-sm-3">
+          <h3>Java</h3>
+          <canvas id="java" class="im-responsive"></canvas>
+        </div>
+        <div class="col-sm-3">
+          <h3>Javascript</h3>
+          <canvas id="javascript" class="im-responsive"></canvas>
+        </div>
+        <div class="col-sm-3">
+          <h3>HTML</h3>
+          <canvas id="html" class="im-responsive"></canvas>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Education</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-9">
+          <h3>Middlebury College</h3>
+          <h5>BA in Computer Science and Economics &nbsp; <small>2011 - 2015</small></h5>
+        </div>
+        <div class="col-sm-3">
+          <a href="#"><img alt="" class="img-responsive" src="http://placehold.it/100x100"></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-9">
+          <h3>International School of Geneva</h3>
+          <h5>IB Diploma &nbsp; <small>2011 - 2015</small></h5>
+        </div>
+        <div class="col-sm-3">
+          <a href="#"><img alt="" class="img-responsive" src="http://placehold.it/100x100"></a>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Experience</h1>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Connect</h1>
+        </div>
+      </div>
+
+      <footer class="footer">
+      </footer>
+
+    </div>
+  </div>
+</div>
+
+
+<script src="js/jquery-1.10.2.js"></script><script src="js/bootstrap.js"></script>
+<script src="js/Chart.js"></script>
+<script>
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("active");
+  });
+</script>
+<script>
+  var pyData = [{
+    value: 30,
+    color:"#F7464A"
+  },
+    {
+      value : 50,
+      color : "#E2EAE9"
+    }];
+
+  var javaData = [{
+    value: 30,
+    color:"#F7464A"
+  },
+    {
+      value : 50,
+      color : "#E2EAE9"
+    }];
+
+  var jsData = [{
+    value: 30,
+    color:"#F7464A"
+  },
+    {
+      value : 50,
+      color : "#E2EAE9"
+    }];
+
+  var htmlData = [{
+    value: 30,
+    color:"#F7464A"
+  },
+    {
+      value : 50,
+      color : "#E2EAE9"
+    }];
+
+  var pyChart = new Chart(document.getElementById("python").getContext("2d")).Doughnut(pyData);
+
+  var javaChart = new Chart(document.getElementById("java").getContext("2d")).Doughnut(javaData);
+
+  var jsChart = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(jsData);
+
+  var htmlChart = new Chart(document.getElementById("html").getContext("2d")).Doughnut(htmlData);
+
+
+</script>
+
 </body>
-
 </html>
