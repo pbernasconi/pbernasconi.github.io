@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb3085e3-3687-43cf-9c2b-3a5ced91516c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/midd_menu_portrait.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pi_lock_logo.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doughnut.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pbernasconi.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44980443" vertical-offset="390" max-vertical-offset="2625">
-              <caret line="59" column="59" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.64537156" vertical-offset="390" max-vertical-offset="2625">
+              <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
               <folding>
                 <element signature="tag#head#0;tag#html#0" expanded="false" />
                 <element signature="tag#script#3;tag#body#0;tag#html#0" expanded="false" />
@@ -315,13 +313,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-31.910448" vertical-offset="17104" max-vertical-offset="21480">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doughnut.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42857143" vertical-offset="255" max-vertical-offset="780">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -340,8 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44980443" vertical-offset="390" max-vertical-offset="2625">
-          <caret line="59" column="59" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.64537156" vertical-offset="390" max-vertical-offset="2625">
+          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
           <folding>
             <element signature="tag#head#0;tag#html#0" expanded="false" />
             <element signature="tag#script#3;tag#body#0;tag#html#0" expanded="false" />
