@@ -1,0 +1,14 @@
+/* @override http://pbernasconi.github.io/css/main.css */
+
+home-header
+
+
+footer {
+	text-align: center;
+	background-color: #91abe3;
+	color: #fff;
+	padding: 40px 20px;
+	border-top-style: solid;
+	border-top-color: #446799;
+}
+
