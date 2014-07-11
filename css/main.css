@@ -1,7 +1,28 @@
 /* @override http://pbernasconi.github.io/css/main.css */
 
-home-header
+.home-header {
+	text-align: center;
+}
 
+
+.btn-primary {
+	background-color: #feffff;
+	color: #5c8ac8;
+	border: 2px solid #5c8ac8;
+	padding-right: 18px;
+	padding-left: 18px;
+	font-size: 15px;
+}
+
+.home-me-photo {
+	margin: 25px;
+}
+
+.btn-primary:hover {
+	color: white;
+	background-color: #5c8ac8;
+	border: 2px solid #5c8ac8;
+}
 
 footer {
 	text-align: center;
