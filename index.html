@@ -1,234 +1,37 @@
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="description">
-  <meta content="" name="author">
+---
+layout: default
+title: Home
+---
 
-  <title>Paolo Bernasconi | Portfolio</title>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/simple-sidebar.css" rel="stylesheet">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-</head>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-<body>
-<div id="wrapper">
-  <div id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand"><a href="#">Paolo Bernasconi</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#connect">Connect</a></li>
-    </ul>
-  </div>
-
-
-  <div id="page-content-wrapper">
-
-    <div class="page-content inset">
-
-      <div class="home-header">
-        <h1>Hi! I'm Paolo</h1>
-        <a href="" ><img class="img-circle home-me-photo" src="images/paolo_photo.jpg"></a>
-      </div>
-
-      <div class="row">
-        <h1 class="page-header" id="work">My Work</h1>
-
-        <div class="sub-row work-row">
-          <div class="col-lg-4 col-md-4">
-            <a href="http://www.pi-lock.com/"><img class="img-responsive" src="images/pi_lock_logo.jpg"></a>
-          </div>
-          <div class="col-lg-8 col-md-8">
-            <h3>Pi-Lock</h3>
-            <h4>A RFID Platform for Personnel, Security and POS management.</h4>
-            <p>Pi-Lock is an automated door Security System built around the Raspberry Pi. Using a RFID reader and PIN entry system, access to buildings, departments and rooms is controlled in a secure, efficient, and cost-minimizing system.</p>
-            <a class="btn btn-primary" href="http://www.pi-lock.com/">Visit Project</a>
-          </div>
-        <hr>
-
-          <div class="col-lg-4 col-md-4">
-            <a href="https://github.com/pbernasconi/Midd-Menu"><img alt="" class="img-responsive" src="images/midd_menu_portrait.png"></a>
-          </div>
-          <div class="col-lg-8 col-md-8">
-            <h3>Middlebury Dining Menu</h3>
-            <h4>A simple dining menu written in AngularJS and Ionic framework</h4>
-            <p>A simple mobile app built in AngularJS and the Ionic Framework, and ported as a native iOS app using Cordova.
-               It displays the current dining menus at the three dining halls at Middlebury College.</p>
-            <a class="btn btn-primary" href="https://github.com/pbernasconi/Midd-Menu">View Project on Github</a>
-          </div>
-        <hr>
-
-          <div class="col-lg-4 col-md-4">
-            <a href="#"><img alt="" class="img-responsive" src="http://placehold.it/700x300"></a>
-          </div>
-          <div class="col-lg-8 col-md-8">
-            <h3>Project Three</h3>
-            <h4>Subheading</h4>
-            <p>Lorem ips interdum nec convallis placerat, felis enim.</p><a class="btn btn-primary" href="#">View Project </a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <h1 class="page-header" id="skills">Skills</h1>
-
-        <div class="sub-row skills-row">
-          <div class="col-sm-3">
-            <h3>Python</h3>
-            <canvas id="python" class="img-responsive"></canvas>
-          </div>
-          <div class="col-sm-3">
-            <h3>Java</h3>
-            <canvas id="java" class="img-responsive"></canvas>
-          </div>
-          <div class="col-sm-3">
-            <h3>Javascript</h3>
-            <canvas id="javascript" class="img-responsive"></canvas>
-          </div>
-          <div class="col-sm-3">
-          <h3>HTML</h3>
-          <canvas id="html" class="img-responsive"></canvas>
-        </div>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <h1 class="page-header" id="education">Education</h1>
-
-        <div class="sub-row education-row">
-          <h3>Middlebury College</h3>
-          <h5>BA in Computer Science and Economics &nbsp; <small>2011 - 2015</small></h5>
-
-          <h3>International School of Geneva</h3>
-          <h5>IB Diploma &nbsp; <small>2011 - 2015</small></h5>
-        </div>
-      </div>
-
-
-      <div class="row">
-          <h1 class="page-header" id="experience">Experience</h1>
-
-          <div class="sub-row experience-row">
-            <h3>RSVP Partners</h3>
-            <h4>Software Engineering Intern &nbsp; <small>Summer 2013</small></h4>
-            <p>• Designed fully-integrated RFID security system to control and manage access in an industrial factory <br>
-               • Built front-end dynamic AngularJS web-interface, backend with MySQL and Apache, and electronic
-               hardware using self-designed Raspberry Pi and RFID circuit.</p>
-
-            <h3>Monsanto</h3>
-            <h4>Corporate Financial Analyst &nbsp; <small>Summer 2012</small></h4>
-            <p>• Analyzed financial data and modeled scenarios to project Monsanto’s international tax and operating
-              opportunities in Ukraine <br>
-              • Presented final conclusions in front of panel of senior employees
-            </p>
-
-            <h3>RAMPartners</h3>
-            <h4>Software Engineering Intern &nbsp; <small>Spring 2012</small></h4>
-            <p>• Created European equities contact database for RAMPartners, a boutique Investment Bank, to bring in
-               more clients and investors.</p>
-
-            <h3>Totai Citrus S.A.</h3>
-            <h4>Financial Analyst &nbsp; <small>Summer 2011</small></h4>
-            <p>• Researched and analyzed operating costs for a 2700 Ha. citrus plantation in Bolivia to project future
-               earnings.</p>
-
-            <h3>Cargill</h3>
-            <h4>Internship &nbsp; <small>Summer 2010</small></h4>
-            <p>• Participated in rotation of 4 departments inside the Geneva offices, which included the World Trading
-               Unit, Ocean Transport, Financial and Risk Management</p>
-          </div>
-      </div>
-
-
-      <div class="row">
-        <h1 class="page-header" id="connect">Connect</h1>
-
-        <div class="sub-row contact-row">
-          <a href="https://github.com/pbernasconi"><i class="fa fa-github fa-5x col-lg-3"></i></a>
-          <a href="http://stackoverflow.com/users/1343626/paolo-bernasconi"><i class="fa fa-stack-overflow fa-5x col-lg-3"></i></a>
-          <a href="https://twitter.com/Paolobernasconi"><i class="fa fa-twitter fa-5x col-lg-3"></i></a>
-          <a href="https://ch.linkedin.com/in/paolobernasconi"><i class="fa fa-linkedin fa-5x col-lg-3"></i></a>
-        </div>
-      </div>
-
-
-    </div>
-  </div>
-
-  <footer class="footer">
-    <div class="row">
-      <h2></h2>
-      <p>Designed and built with all the love in the world by @mdo and @fat. <br>
-         Maintained by the core team with the help of our contributors.<br>
-         Code licensed under MIT, documentation under CC BY 3.0.</p>
-    </div>
-  </footer>
-
+    {{ post.content }}
+  </article>
+  {% endfor %}
 </div>
 
-
-<script src="js/jquery-1.10.2.js"></script><script src="js/bootstrap.js"></script>
-<script src="js/Chart.js"></script>
-<script>
-  $("#menu-toggle").click(function(e) {
-    e.preventDefault();
-    $("#wrapper").toggleClass("active");
-  });
-</script>
-<script>
-  var pyData = [{
-    value: 30,
-    color:"#F7464A"
-  },
-    {
-      value : 50,
-      color : "#E2EAE9"
-    }];
-
-  var javaData = [{
-    value: 30,
-    color:"#F7464A"
-  },
-    {
-      value : 50,
-      color : "#E2EAE9"
-    }];
-
-  var jsData = [{
-    value: 30,
-    color:"#F7464A"
-  },
-    {
-      value : 50,
-      color : "#E2EAE9"
-    }];
-
-  var htmlData = [{
-    value: 30,
-    color:"#F7464A"
-  },
-    {
-      value : 50,
-      color : "#E2EAE9"
-    }];
-
-  var pyChart = new Chart(document.getElementById("python").getContext("2d")).Doughnut(pyData);
-
-  var javaChart = new Chart(document.getElementById("java").getContext("2d")).Doughnut(javaData);
-
-  var jsChart = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(jsData);
-
-  var htmlChart = new Chart(document.getElementById("html").getContext("2d")).Doughnut(htmlData);
-
-
-</script>
-
-</body>
-</html>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
