@@ -116,5 +116,47 @@ html, body {
 
 .projects-title {
     padding-top: 20px;
-   
+
+}
+
+
+.card {
+    width: 40%;
+
+}
+
+.card header {
+    background-color: #fff;
+    padding: 18px 18px 15px 15px;
+    font-family: 'Times New Roman', Times, Serif;
+    font-size: 18px;
+    text-align: center;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    -webkit-box-shadow: 0 0 10px rgba(6,8,8,0.1);
+    box-shadow: 0 0 10px rgba(6,8,8,0.1);
+}
+
+.card .card-img {
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #fff;
+    position: relative;
+    z-index: 5;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #2D3036;
+}
+
+.card footer {
+    background-color: #fff;
+    padding: 18px 18px 18px 18px;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    -webkit-box-shadow: 0 0 10px rgba(6,8,8,0.1);
+    box-shadow: 0 0 10px rgba(6,8,8,0.1);
 }

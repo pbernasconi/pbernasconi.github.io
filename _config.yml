@@ -7,17 +7,19 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
-paginate:         1
+title:            Paolo Bernasconi
+tagline:          Personal Blog
+url:              http://paolobernasconi.com
+paginate:         3
+paginate_path:    "blog/page:num/"
 baseurl:          /
+blogurl:          /blog/
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Paolo Bernasconi
+  url:            https://twitter.com/paolobernasconi
+  email:          paolo.enrico.bernasconi@gmail.com
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/pbernasconi/paolobernasconi.github.io
