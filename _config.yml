@@ -1,6 +1,7 @@
 # Build settings
 markdown: redcarpet
 highlighter: pygments
+permalink: pretty
 
 title: "Paolo Bernasconi"
 description: > # this means to ignore newlines until "email:"
