@@ -1,25 +1,31 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Build settings
+markdown: redcarpet
+highlighter: pygments
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+title: "Paolo Bernasconi"
+description: > # this means to ignore newlines until "email:"
+email: paolo.enrico.bernasconi@gmail.com
+logo: "/assets/images/pb_logo.png"
 
-# Setup
-title:            Paolo Bernasconi
-tagline:          Personal Blog
-url:              http://paolobernasconi.com
-paginate:         3
-paginate_path:    "blog/page:num/"
-baseurl:          /
-blogurl:          /blog/
-author:
-  name:           Paolo Bernasconi
-  url:            https://twitter.com/paolobernasconi
-  email:          paolo.enrico.bernasconi@gmail.com
 
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/pbernasconi/paolobernasconi.github.io
+name: 'Paolo Bernasconi'
+author: 'Paolo Bernasconi'
+author_image: "/assets/images/author.jpeg"
+
+paginate:	5
+
+url: "http://paolobernasconi.com" # the base hostname & protocol for your site
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/paolobernasconi
+    desc:   Follow me on twitter
+
+  - icon:	github
+    url:	https://github.com/pbernasconi
+    desc:	Fork me on github
+
+  - icon:	linkedin
+    url:	https://www.linkedin.com/in/paolobernasconi
